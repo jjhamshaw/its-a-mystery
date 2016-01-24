@@ -45,7 +45,7 @@ Theming
 	margin: 0 auto 0 auto;
 }
 
-#dw_countdown {
+section {
 	position: relative;
 	max-width: 780px;
 	margin: 25% auto 25% auto;
@@ -110,74 +110,6 @@ p > a:hover {
 	border-bottom: 1px solid #34a87d;
 }
 
-/*-----------------------------------------------------------------------------------
-MailChimp Style
------------------------------------------------------------------------------------*/
-
-#mc_embed_signup {	
-	max-width: 600px;
-	margin: 0 auto;
-}
-
-input[type="email"] {
-	display: block;
-	width: 100%;
-	height: 4.4rem;
-	max-width: 440px;
-	background: #333;
-	float: left;
-	border: none;
-	outline: none;
-	font-size: 1.6rem;
-	font-family: inherit;
-	font-weight: 400;
-	color: inherit;
-	line-height: 2.2rem;
-	margin: 0 20px 0 0;
-	padding: 0 10px;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	border-radius: 3px;
-	-webkit-transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-	-ms-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
-	-webkit-font-smoothing: antialiased;
-	-webkit-appearance: none;
-}
-
-input[type="email"]:focus {
-	opacity: 0.9;
-}
-
-input[type="submit"] {
-	display: block;
-	width: 100%;
-	height: 4.4rem;
-	max-width: 140px;
-	background: #38b789;
-	border: none;
-	outline: none;
-	font-size: 1.6rem;
-	font-family: inherit;
-	font-weight: 400;
-	color: #fff;
-	line-height: 2.2;
-	padding: 0 10px;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	border-radius: 3px;
-	-webkit-transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-	-ms-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
-	-webkit-font-smoothing: antialiased;
-	-webkit-appearance: none;  
-}
-
-input[type="submit"]:hover {
-	cursor: pointer;
-	background: #34a87d;
+#phone_number {
+	font-size: 38px;
 }
